@@ -1,9 +1,8 @@
 # frontend-webpack-babel-eslint-prettier-react
 
-<br>
 | **Heading** | **Commands** |
 | ------- | -------- |
-| npm install | <span style="color: #d4d4d4;">**npm install**</span> |
-| Development  | <span style="color: #d4d4d4;">**npm run dev**</span> |
+| npm install | **npm install**|
+| Development | **npm run dev** |
 | Server | **npm run server** |
 | Final built | **npm run build** |
