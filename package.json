@@ -1,5 +1,5 @@
 {
-  "name": "tony",
+  "name": "Project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -30,8 +30,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "file-loader": "^6.2.0",
-    "handlebars": "^4.7.7",
-    "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^5.1.0",
     "mini-css-extract-plugin": "^1.3.8",
     "node-sass": "^5.0.0",
@@ -46,6 +44,7 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   }
 }

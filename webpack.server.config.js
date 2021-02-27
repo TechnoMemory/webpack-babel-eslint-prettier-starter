@@ -12,8 +12,6 @@ module.exports = {
   },
   mode: 'development',
   target: 'node',
-
-  // Need this to avoid error when working with Express
   externals: [nodeExternals()],
 
   plugins: [new NodemonPlugin()],
