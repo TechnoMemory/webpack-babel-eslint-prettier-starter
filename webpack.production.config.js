@@ -19,12 +19,13 @@ module.exports = {
   // 'production' for the production build.
   mode: 'production',
 
-  // Extracting common dependencies - optimization.splitChunks can extract common dependencies into its own bundle. Reduces size of app.js and ui.js and creates third bundle 'vendor' will be cached separately and users don't need to download when we change something in app.js and ui.js.
+  // Extracting common dependencies - optimization.splitChunks can extract common dependencies into its own bundle. Reduces size of app.js and ui.js and creates third bundle.
   optimization: {
     splitChunks: {
       chunks: 'all',
+      name: 'vendor',
 
-      // Custom option for code splitting - By default wp extract common dependency only when they exceed 30kb before minification. It won't work with dependencies less than 30kb. In order to extract these to separate bundle. Specify custom config options for splitting chunks.
+      // Custom option for code splitting with dependencies less than 30kb.
       minSize: 10000,
       automaticNameDelimiter: '_',
     },

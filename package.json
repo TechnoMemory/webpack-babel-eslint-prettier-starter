@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.production.config.js",
     "dev": "webpack serve --config webpack.dev.config.js",
-    "server": "webpack --watch --progress --config webpack.server.config.js",
+    "server": "webpack --watch --config webpack.server.config.js",
     "lint": "eslint ."
   },
   "keywords": [],
@@ -45,6 +45,7 @@
     "webpack-node-externals": "^2.5.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
 }
