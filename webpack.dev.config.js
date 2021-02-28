@@ -7,15 +7,19 @@ module.exports = {
     ui: './src/ui.js',
     app: './src/app.js',
   },
+
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+
   mode: 'development',
+
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
-    writeToDisk: true,
+    // writeToDisk: true,
   },
+
   devtool: 'source-map',
 
   module: {
@@ -24,14 +28,17 @@ module.exports = {
         test: /\.(png|jpg)$/,
         use: 'file-loader',
       },
+
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
+
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
+
       {
         test: /\.js$/,
         exclude: /node_modules/,
