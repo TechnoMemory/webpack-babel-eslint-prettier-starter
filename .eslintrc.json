@@ -26,7 +26,6 @@
     "object-shorthand": "off",
     "import/prefer-default-export": "off",
     "import/no-useless-path-segments": "off",
-    "import/newline-after-import": "off",
-    "allowTernary": true
+    "import/newline-after-import": "off"
   }
 }
