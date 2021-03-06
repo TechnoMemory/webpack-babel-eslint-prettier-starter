@@ -6,6 +6,6 @@
   "prettier.max-len": 120,
   "prettier.printWidth": 120,
   "endOfLine": "auto",
-  "arrowParens": "avoid",
-  "singleQuote": true
+  "singleQuote": true,
+  "arrowParens": "avoid"
 }
