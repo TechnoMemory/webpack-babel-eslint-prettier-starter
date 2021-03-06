@@ -1,0 +1,11 @@
+{
+  "max-len": 120,
+  "printWidth": 120,
+  "editor.max-len": 120,
+  "editor.printWidth": 120,
+  "prettier.max-len": 120,
+  "prettier.printWidth": 120,
+  "endOfLine": "auto",
+  "arrowParens": "avoid",
+  "singleQuote": true
+}
